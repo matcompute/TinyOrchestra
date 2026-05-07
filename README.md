@@ -19,4 +19,4 @@ TINYORCHESTRA is a research-grade platform demonstrating **Decentralized Intelli
 - `frontend/`: Industrial Mesh UI for real-time monitoring of node health and global accuracy.
 
 ## 🛡️ Professional Portfolio
-This project is part of a Senior Applied ML & PhD Research portfolio. Local environments and sensitive keys are strictly excluded to maintain production-grade security standards.
+This project is part of a Senior Applied ML & Research portfolio. Local environments and sensitive keys are strictly excluded to maintain production-grade security standards.
