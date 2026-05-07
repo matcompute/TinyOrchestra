@@ -1,0 +1,83 @@
+:root {
+  --bg-basalt: #0a0b0d;
+  --bg-panel: rgba(18, 20, 24, 0.9);
+  --accent-amber: #ff9f00;
+  --accent-gold: #ffc400;
+  --text-primary: #e0e0e0;
+  --text-secondary: #9e9e9e;
+  --node-glow: rgba(255, 159, 0, 0.2);
+  --font-main: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-basalt);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  background-image: radial-gradient(circle at 2px 2px, rgba(255,159,0,0.03) 1px, transparent 0);
+  background-size: 40px 40px;
+}
+
+.mesh-container {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.node-card {
+  background: var(--bg-panel);
+  border: 1px solid rgba(255, 159, 0, 0.1);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.node-card:hover {
+  border-color: var(--accent-amber);
+  box-shadow: 0 0 40px var(--node-glow);
+  transform: translateY(-4px);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--accent-amber);
+  box-shadow: 0 0 10px var(--accent-amber);
+}
+
+.data-stream {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--accent-gold);
+  background: rgba(0,0,0,0.3);
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-amber);
+}
+
+.mesh-btn {
+  background: linear-gradient(135deg, var(--accent-amber), #ff6f00);
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+}
+
+.mesh-btn:hover {
+  filter: brightness(1.1);
+  transform: scale(1.05);
+}
+
+.mesh-btn:disabled {
+  background: #333;
+  color: #666;
+  cursor: not-allowed;
+}

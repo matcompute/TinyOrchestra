@@ -1,0 +1,7 @@
+﻿.env
+venv/
+node_modules/
+.DS_Store
+__pycache__/
+IMPLEMENTATION_PLAN.md
+RESEARCH_MASTER_GUIDE.md

@@ -1,0 +1,5 @@
+npm error code EJSONPARSE
+npm error JSON.parse Invalid package.json: JSONParseError: Unexpected token "�" (0xFFFD), "��{^@"^@n^@a^@"... is not valid JSON while parsing '��{^@"^@n^@a^@m^@e^@"^@:^@ ^@"^@t^@i^@n^@y^@o^@r^@c^@h^@e^@'
+npm error JSON.parse Failed to parse JSON data.
+npm error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+npm error A complete log of this run can be found in: C:\Users\88697\AppData\Local\npm-cache\_logs\2026-05-07T13_06_00_667Z-debug-0.log
